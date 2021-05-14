@@ -131,12 +131,11 @@ int main()
                     }
                 }
             }
-            std::cout<<"\n"<<rya<<std::endl;
             pole[n][m]= -1;
+            rya= rya - fox +8;
         }
         else if(pole[n][m] > 0){
             fox-=pole[n][m];
-            std::cout<<"\n"<<"popal"<<std::endl;
             rya = -1;
             pole[n][m]= -2;
         }
