@@ -27,7 +27,7 @@ public:
             for(j=0; j<10; j++){
                 if((var1==i)&&(var2==j)){
                     if(var3 == -1){
-                        std::cout<<"f"<<" ";
+                        std::cout<<9<<" ";
                         var4[i][j]=9;
                     }
                     else {
